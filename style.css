@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Open+Sans:600');
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.country {
+    background-color: #ef4f5f;
+    color: white;
+    max-width: 50%;
+    margin-top: 2%;
+    padding-bottom: 60px;
+}
+h1 {
+	color: #ef4f5f;
+	font-size: 3.5em;
+	font-family: 'Montserrat', sans-serif;
+
+}
+h2 {
+	color: #242291;
+	font-size: 2em;
+	font-family: 'Open-Sans', sans-serif;
+}
+#search {
+	padding:15px;
+	background-color: #ef4f5f;
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+	border-radius: 10px;
+	border: none;
+	outline: none;
+	text-transform: uppercase;
+}
+#country-name {
+	padding: 15px;
+	background-color:#7193f2;
+	border-radius: 5px;
+	border: none;
+	outline: none;
+	color: white;
+	font-family: 'Open-Sans', sans-serif;
+	font-weight: bold;
+}
+#country-name::placeholder {
+	color: #fff9fa;
+}
+.countryHeader {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-bottom: 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    padding-top: 15px;
+}
+
+.country-name {
+    display: inline-block;
+    text-transform: uppercase;
+    margin: 0 10px;
+}
+.countryDescription {
+	font-family: 'Open-Sans', sans-serif;
+	font-weight: bold;
+	font-size: 20px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	padding-left: 10px;
+	background-color: #7193f2;
+}
+
+.flag {
+    width: 40px;
+    height: 40px;
+}
