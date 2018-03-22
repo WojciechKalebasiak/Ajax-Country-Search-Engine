@@ -11,7 +11,9 @@ $(document).ready(function() {
         }
         $.ajax({
             url: urlToCountires + countryName,
-            success: showCountries
+            success: function (res) {
+            	showCountries(res);
+            }
         }); //end of request
 
     } // end of searchCountries
